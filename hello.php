@@ -1,6 +1,6 @@
 <?php
 // hello.php - returns data as JSON, not HTML
-header('Content-Type: application/json'; charset=utf-8);
+header('Content-Type: application/json; charset=utf-8');
 
 $response =[
     'message' => 'Hello from the server!',
